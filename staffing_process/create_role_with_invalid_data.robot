@@ -1,7 +1,3 @@
-*** Settings ***
-Library           String
-
-*** Test Cases ***
-Repeat-Action
-    Repeat Keyword    2    Log    Repeating this ...
-
+*** TestCases ***
+create_role_with_invalid_data.robot
+    Repeat Keyword    2    log    repeat this
