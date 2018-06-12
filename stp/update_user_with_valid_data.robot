@@ -10,7 +10,7 @@ update_user_with_valid_data
     Input Text    xpath=//input[@id='emailid']    veera@gm.com
     Input Password    xpath=//input[@id='pwd']    mypassword
     Click Button    xpath=//button[@class='btn btn-purple btn-block text-uppercase waves-effect waves-light']
-    sleep    10
+    sleep    15
     Wait Until Page Contains Element    xpath=//*[@id="datatable-responsive_filter"]/label/input    30
     Input Text    xpath=//*[@id="datatable-responsive_filter"]/label/input    sal6241@gm.com
     Wait Until Page Contains Element    xpath=//*[@id="userstable"]/tr/td[8]/a[1]/i    30
